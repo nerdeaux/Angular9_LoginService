@@ -1,0 +1,19 @@
+{
+  "hosting": [
+    {
+      "target": "My14thProject-MultipleUsers",
+      "public": "dist/My14thProject-MultipleUsers",
+      "ignore": [
+        "firebase.json",
+        "**/.*",
+        "**/node_modules/**"
+      ],
+      "rewrites": [
+        {
+          "source": "**",
+          "destination": "/index.html"
+        }
+      ]
+    }
+  ]
+}

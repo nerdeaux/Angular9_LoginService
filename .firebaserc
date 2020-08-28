@@ -1,0 +1,11 @@
+{
+  "targets": {
+    "my12thprojectcrud": {
+      "hosting": {
+        "My14thProject-MultipleUsers": [
+          "my12thprojectcrud"
+        ]
+      }
+    }
+  }
+}

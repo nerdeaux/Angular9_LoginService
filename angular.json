@@ -117,8 +117,16 @@
               "devServerTarget": "My14thProject-MultipleUsers:serve:production"
             }
           }
+        },
+        "deploy": {
+          "builder": "@angular/fire:deploy",
+          "options": {}
         }
       }
-    }},
-  "defaultProject": "My14thProject-MultipleUsers"
+    }
+  },
+  "defaultProject": "My14thProject-MultipleUsers",
+  "cli": {
+    "analytics": "71796aa7-ed77-4b12-bc3b-3e258f551f3e"
+  }
 }
